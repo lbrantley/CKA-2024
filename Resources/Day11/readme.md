@@ -45,7 +45,6 @@ spec:
   containers:
   - name: myapp-container
     image: busybox:1.28
-    env:
     command: ['sh', '-c', 'echo The app is running! && sleep 3600']
   initContainers:
   - name: init-myservice
